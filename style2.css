@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Bai+Jamjuree&family=DM+Sans:opsz@9..40&family=Inter&family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.main{
+    display: flex;
+    height:85vh;
+    background-color: black;
+}
+
+nav{
+    flex: 1;
+    background-color: black;
+    overflow-x: scroll;
+}
+
+main{
+    flex: 4;
+    overflow-x: scroll;
+}
+
+footer{
+    height:15vh;
+    background-color: #181818;
+}
+
+.navcard>p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color:#FFFFFF;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.navcard{
+    padding-right: 80px;
+}
+
+.navcard:hover{
+    background-color:#282828;
+    cursor:pointer;
+}
+
+.nbheader{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.10rem;
+    text-align: left;
+    color: #B3B3B3;
+    padding-left: 40px;
+}
+
+#one{
+    padding-left: 40px;
+}
+
+#two{
+    background-color: white;
+}
+
+#three{
+    padding-left: 45px;
+}
+
+#four{
+    padding-left:33px;
+    white-space: nowrap;
+}
+
+.divider{
+    margin-left: 23px;
+    border-bottom: 1px solid #282828;
+    width:220px;
+}
+
+.navartist{
+    margin-top: 500px;
+    margin-bottom: 50px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+#margin1{
+    margin-left: -8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:#C5C9C8;
+}
+
+#margin2{
+    margin-left:25px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:#C5C9C8;
+}
+
+.mup{
+    background: linear-gradient(180deg, #90AEA7 0%, #000000 89.7%);
+}
+
+.muprow1col1>img{
+    width:410px;
+    height:408px;
+}
+
+#mt{
+    margin-top: 70px;
+    color:white;
+}
+
+.muprow1col2>p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:#C5C9C8;
+}
+
+.muprow1col2>h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 114px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color:white;
+}
+
+.muprow1col2row1>p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:white
+
+}
+
+.muprow1col2{
+    margin-left:-20px;
+}
+
+.muprow2>img{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.muprow2{
+    height:100px;
+    width:1094px;
+    padding-left: 50px;
+}
+
+.border1{
+    border-top: 1px solid #B8BABA;
+    width:1094px;
+}
+
+.listtitle{
+    width:1094px;
+}
+
+.listtitle>p{
+    margin-top: -8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.11em;
+    text-align: left;
+    color: #B8BABA;  
+}
+
+.bg{
+    width:1094px;
+    background: linear-gradient(to bottom, #2D3634, #2C3533, #28302E, #1F2524, #1D2322, #1A201F, #1C171A);
+}
+
+#numbering{
+    padding-right: 10px;
+}
+
+.ltitle{
+    margin-left: 10px;
+}
+
+
+.ltitle>img{
+    margin-right: 10px;
+}
+
+#titlestyle{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400; 
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.ltitle>p{
+    margin-top: 15px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:white;
+}
+
+.lalbum>p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:white;
+}
+
+.ldate{
+    padding-right: 60px;
+}
+
+.ldate>p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B8BABA;
+}
+
+.linfo>img{
+    margin: 5px;
+}
+
+.fleft{
+    padding-left: 20px;
+}
+
+.fleft,.fcenter,.fright{
+    cursor:pointer;
+}
+
+.fright{
+    margin-right: 5px;
+} 
+
+.list:hover{
+    background-color: grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
