@@ -88,6 +88,16 @@ footer{
 
 .navrow3>p:hover{
      color:lightgreen;
+     cursor:pointer;
+}
+
+.hrow1col1{
+    display: flex;
+    align-items: center;
+}
+
+.hiddenmenu{
+    display: none;
 }
 
 .hrow1col1>img{
@@ -264,6 +274,9 @@ footer{
 
 .fupleft{
     width:200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .fupleft>div,.fupleft>img,.fupleft>p{
@@ -273,6 +286,10 @@ footer{
 .fupcenter>img{
     padding-bottom: 10px;
     cursor: pointer;
+}
+
+.fupright{
+    display: flex;
 }
 
 .fupright>img{
@@ -290,6 +307,9 @@ footer{
 
 
 .fdown{
+    display: flex;
+    justify-content: end;
+    align-items: center;
     background-color: #1ED760;
     position: fixed;
     bottom: 0px;
@@ -315,4 +335,84 @@ footer{
     color: #000000;
     margin-top: 15px;
     padding-right: 50px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hiddencenter{
+    display: none;
+}
+
+@media screen and (max-width:480px){
+
+    nav{
+        flex:0;
+    }
+
+    .hrow1col1{
+        display: none;
+    }
+
+    .hiddenmenu{
+        display: flex;
+        padding-left: 10px;
+    }
+
+    .hrow2row1>h1{
+        font-size: 25px;
+    }
+    
+    .hrow3>h3{
+        font-size: 23px;
+    }
+
+    .hrow3>a{
+        padding-bottom: 15px;
+        margin-left:10px ;
+    }
+
+    .fdown{
+        display: none;
+    }
+
+    .fup{
+        width:90vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .fupleft,.fupcenter,.fupright{
+        display: none;
+    }
+
+    .main{
+        height:90vh;
+    }
+
+    footer{
+        height:10vh;
+    }
+
+    .hiddencenter>img{
+        width:90vw;
+    }
+
+    .hiddencenter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor:pointer;
+    }
+
+    #himg1{
+        margin-bottom:15px;
+        width:70vw;
+    }
 }
