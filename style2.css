@@ -168,7 +168,6 @@ footer{
 
 .muprow2{
     height:100px;
-    width:1094px;
     padding-left: 50px;
 }
 
@@ -177,9 +176,6 @@ footer{
     width:1094px;
 }
 
-.listtitle{
-    width:1094px;
-}
 
 .listtitle>p{
     margin-top: -8px;
@@ -193,7 +189,6 @@ footer{
 }
 
 .bg{
-    width:1094px;
     background: linear-gradient(to bottom, #2D3634, #2C3533, #28302E, #1F2524, #1D2322, #1A201F, #1C171A);
 }
 
